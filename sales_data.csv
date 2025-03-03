@@ -1,0 +1,7 @@
+Order_ID,Date,Product,Category,Sales,Quantity,Customer_ID,Region
+1001,2023-01-15,Laptop,Electronics,1200.0,2,C001,North
+1002,01-20-2023,Phone,Electronics,,1,C002,South
+1003,2023/01/25,Headphones,Electronics,100.0,5,C003,East
+1004,2023-02-05,Desk,Furniture,300.0,1,,West
+1005,2023-02-10,Chair,Furniture,80.0,-1,C005,Central
+1006,02/15/2023,Laptop,Electronics,1500.0,1,C006,North

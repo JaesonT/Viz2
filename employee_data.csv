@@ -1,0 +1,7 @@
+Employee_ID,Name,Age,Job_Title,Salary,Hire_Date
+E001,Alice,29.0,Data Analyst,55000,2022-05-10
+E002,Bob,,Data Scientist,72000,01/12/2021
+E003,Charlie,34.0,Data-Analyst,-60000,2020-08-20
+E004,David,40.0,Business Analyst,65000,08/15/2019
+E005,Emily,27.0,Data Engineer,71000,2018-03-25
+E006,Frank,,data scientist,73000,2017-11-05
