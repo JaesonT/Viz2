@@ -24,7 +24,10 @@ sales_data <- sales_data %>%
 
 # 4. Convert Date Formats
 sales_data <- sales_data %>%
-  mutate(Date = lubridate::mdy(Date))  # Convert multiple date formats to standard YYYY-MM-DD
+  mutate(
+    Date = parse_date_time(Date, orders = c("mdy", "ymd", "dmy"))
+  )
+
 
 # 5. Correct Inconsistent Data
 sales_data <- sales_data %>%
